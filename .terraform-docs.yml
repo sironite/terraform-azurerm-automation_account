@@ -8,11 +8,11 @@ content: |-
 
   # Usage - Module
 
-  ## Network Watcher Flow Log
+  ## Automation Account
+  
   ```hcl
-  {{ include "examples/network-watcher-flow-log-example/main.tf" }}
+  {{ include "examples/automation-account-example/main.tf" }}
   ```
-
   {{ .Providers }}
 
   {{ .Modules }}
